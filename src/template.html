@@ -1,293 +1,451 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <title>Syed sufiyan | Developer</title>
+  <meta name="syed sufiyan"
+    content="[syed sufiyan],html, css, react, node.js, bootstrap, mongoDB, express.js, firebase" />
+  <meta name="description" content="[Your name here] | Developer" />
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Syed Sufiyan</span>
+        <br />
+        Passionate problem solver.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Hire Me</a>
+      </p>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#contact">Contact Me</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+
+            </p>
+            <p class="about-wrapper__info-text">
+              I'am Syed Sufiyan Web developer from Bangalore, India. My focus is on writing clean, elegent and efficient
+              code with a passion for designing beautiful and functional user experiences.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://drive.google.com/file/d/1DTo_wT0bWHkSW11p92TtOz9eEzw9VBYN/view?usp=sharing">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">FORTE e-commerce app</h3>
+              <div>
+                <p class="mb-4">
+                  e-commerse app to buy mens and womens in fashion category.
+                  shop clothes, hats, sneakers and more.
+                  Done in React with Redux. This is written in JavaScript styled using styled components. Stripe for
+                  payment method.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://forte-live.herokuapp.com">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/thesyedsufiyan/forte-clothing">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
-              </p>
-              <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
-                  View Resume
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project.jpg" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Amazon clone</h3>
+              <div>
+                <p class="mb-4">
+                  users can add, delete items, login.
+                  Done with ReactJs, Context api, Firebase.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://ama-zon-cl-one.web.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/thesyedsufiyan/amazon-clone">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/amazon.jpg" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Loan Calculator</h3>
+              <div>
+                <p class="mb-4">
+                  Enter amount and term to calculate Loan.
+                  Done in ReactJs.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://loan-calculator2.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/thesyedsufiyan/loan-calculator">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/loan.jpg" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            [Put your call to action here]
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
         </div>
 
-        <hr />
 
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-          </a>
-        </p>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Quiz Game App</h3>
+              <div>
+                <p class="mb-4">
+                  play computer science quiz.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://quiz-game-js.netlify.app">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/thesyedsufiyan/quiz-game-app">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project3.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
 
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">perfect cocktail app</h3>
+              <div>
+                <p class="mb-4">
+                  This is cocktail recipe app, search any cocktail get recipe of the same
+                  done in cocktailDB api.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://cocktail-recipe.netlify.app">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/thesyedsufiyan/cocktails-app">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project2.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Car Insurance App</h3>
+              <div>
+                <p class="mb-4">
+                  calculate car insurance.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://car-insurance-quote.netlify.app">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/thesyedsufiyan/car-insurance-ap">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project4.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Node Chat App</h3>
+              <div>
+                <p class="mb-4">
+                  App with node.js, socket.io
+                  can chat with users in same room and send location.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://syeds-chat-app.herokuapp.com">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/thesyedsufiyan/node-chat-app">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project5.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+
+        <!-- Each .row is a blog -->
+
+        <section id="blogs">
+          <div class="container">
+            <div class="project-wrapper">
+              <h2 class="section-title dark-blue-text">
+                Blogs
+              </h2>
+
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="project-wrapper__text">
+                    <a
+                      href="https://medium.com/@syedsufi1066/understanding-asynchronous-programming-in-javascript-c2553d7d07f2">
+                      <h3 class="project-wrapper__text-title">Understanding Asynchronous programming in JavaScript</h3>
+                    </a>
+                    <div>
+                      <p class="mb-4">
+                        In this blog we'll run through a number of important
+                        concepts relating to asynchronous programming,
+                        and how this looks in web browsers and JavaScript
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image">
+                    <a href="https://medium.com/@syedsufi1066/understanding-asynchronous-programming-in-javascript-c2553d7d07f2"
+                      target="_blank">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="img-fluid" src="./assets/tech-regulation.jpg" />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="project-wrapper__text">
+                    <a href="https://medium.com/@syedsufi1066/destructuring-in-javascript-8481c3b56ddc">
+                      <h3 class="project-wrapper__text-title">Destructuring in javascript</h3>
+                    </a>
+                    <div>
+                      <p class="mb-4">
+                        Blog about how destructuring work in javascript.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image">
+                    <a href=" https://medium.com/@syedsufi1066/destructuring-in-javascript-8481c3b56ddc"
+                      target="_blank">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="img-fluid" src="./assets/tech-regulation1.jpg" />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="project-wrapper__text">
+                    <a
+                      href=" https://medium.com/@syedsufi1066/javascript-array-methods-foreach-map-some-find-filter-more-ff1e50ec3c50">
+                      <h3 class="project-wrapper__text-title">JavaScript Array Methods (forEach, map, some, find, filter
+                        &
+                        more)</h3>
+                    </a>
+                    <div>
+                      <p class="mb-4">
+                        Understanding JavaScript array methods and its types.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image">
+                    <a href=" https://medium.com/@syedsufi1066/javascript-array-methods-foreach-map-some-find-filter-more-ff1e50ec3c50"
+                      target="_blank">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="img-fluid" src="./assets/tech-regulation2.jpg" />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+        <!-- /END Projects Section -->
+
+
+
+        <!-- **** Contact Section **** -->
+        <section id="contact">
+          <div class="container">
+            <h2 class="section-title">
+              Contact
+            </h2>
+            <div class="contact-wrapper">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:syedsufiyansn@gmail.com">Email</a>
+              <a target="_blank" class="cta-btn cta-btn--resume" href="tel:9900263162"">Phone</a>
+
+            </div>
+          </div>
+        </section>
+        <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+    <footer class=" footer navbar-static-bottom">
+
+                <div class="container">
+
+                  <a href="#top" class="back-to-top">
+                    <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <div class="social-links">
+                    <a href="https://twitter.com/thesyedsufiyan" target="_blank">
+                      <i class="fa fa-twitter fa-inverse"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/syed-sufiyans" target="_blank">
+                      <i class="fa fa-linkedin fa-inverse"></i>
+                    </a>
+                    <a href="https://github.com/thesyedsufiyan" target="_blank">
+                      <i class="fa fa-github fa-inverse"></i>
+                    </a>
+                    <a href="https://www.instagram.com/sufi.codes/" target="_blank">
+                      <i class="fa fa-instagram fa-inverse"></i>
+                    </a>
+                  </div>
+                </div>
+                </footer>
+                <!-- /END Footer Section -->
+</body>
+
 </html>
